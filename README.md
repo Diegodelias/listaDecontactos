@@ -3,4 +3,4 @@ Permite cargar y eliminar contactos por nombre apellido y telefono y los almacen
 
 ser puede ver funcinando en este link
 
-https://diegodelias.github.io/listaDecontactos/
+https://diegodelias.github.io/listaDecontactos/index.html
