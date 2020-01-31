@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contactos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" integrity="sha256-ECB9bbROLGm8wOoEbHcHRxlHgzGqYpDtNTgDTyDz0wg=" crossorigin="anonymous" />
+
+   <link rel="stylesheet" href="./estilos.css">
+</head>
+<body>
+    <div class="container">
+    <h1>Agregar contacto</h1>
+        <form action="" id="form-contactos">
+            <div>
+            <label for="titulo">Nombre</label>
+            <input type="text" id="nombre" class="u-full-width">
+
+
+            </div>
+            <div>
+                <label for="apellido">Apellido</label>
+                <input type="text" id="apellido" class="u-full-width">
+                
+    
+            </div>
+            <div>
+                    <label for="telefono">Teléfono</label>
+                    <input type="text" id="telefono" class="u-full-width">
+                    
+        
+            </div>
+
+            <div>
+                <input type="submit" value="enviar" class="u-full-width">
+            </div>
+        </form>
+
+     
+        <table class="u-full-width">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Teléfono</th>
+                    <th></th>
+                </tr>
+
+
+            </thead>
+
+            <tbody id="lista-contactos"></tbody>
+
+
+        </table>
+    </div>
+    <script src="appes6.js"></script>
+</body>
+</html>
